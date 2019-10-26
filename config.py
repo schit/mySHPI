@@ -13,9 +13,9 @@ starthttpserver = 1 #activate simple GET/POST server in python, be aware of  sec
 HTTP_PORT = 9000
 
 startmqttclient = 1
-MQTT_USER = ''
-MQTT_PW = ''
-MQTT_SERVER = "mqtt.eclipse.org" 
+MQTT_USER = "mq"
+MQTT_PW = "f9oi34"
+MQTT_SERVER = "192.168.2.142" 
 MQTT_PORT = 1883
 MQTT_PATH = "shpi"
 MQTT_QOS = 1
