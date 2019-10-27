@@ -57,6 +57,7 @@ def inloop(textchange = False,activity = False, offset = 0):
       peripherals.touch_pressed = False     
       if peripherals.clicked(shutterUp.x,shutterUp.y):
         peripherals.controlrelays(config.shutterdown, 0)
+        mqttclient.publish("scheinwerfer", '0')
         peripherals.controlrelays(config.shutterup, 1)
         shutterUp.colouring.set_colour([0,1,0])
         shutterDown.colouring.set_colour([1,1,1])
@@ -65,6 +66,7 @@ def inloop(textchange = False,activity = False, offset = 0):
       elif peripherals.clicked(shutterDown.x,shutterDown.y):
         peripherals.controlrelays(config.shutterup, 0)
         peripherals.controlrelays(config.shutterdown, 1)
+        mqttclient.publish("scheinwerfer", '1')
         shutterUp.colouring.set_colour([1,1,1])
         shutterDown.colouring.set_colour([0,1,0])
 
