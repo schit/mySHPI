@@ -10,6 +10,11 @@ import config
 import core.graphics as graphics
 import core.peripherals as peripherals
 
+try:
+   import mqttclient
+except:
+   import core.mqttclient as mqttclient
+
 
 
 text2 = pi3d.PointText(graphics.pointFontbig, graphics.CAMERA, max_chars=35, point_size=256) #slider2 Time & shutter
