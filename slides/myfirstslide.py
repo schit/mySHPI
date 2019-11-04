@@ -23,7 +23,7 @@ text2 = pi3d.PointText(graphics.pointFontbig, graphics.CAMERA, max_chars=35, poi
 if config.shutterup or config.shutterdown:
   uhrzeit_block = pi3d.TextBlock(-280, 100, 0.1, 0.0, 15, data_obj=peripherals.eg_object,attr="uhrzeit", text_format= "{:s}", size=0.99, spacing="F", space=0.05, colour=(1.0, 1.0, 1.0, 1.0))
   text2.add_text_block(uhrzeit_block)
-  kugelswitch = pi3d.TextBlock(-100, -100, 0.1, 0.0, 15, text_format=chr(0xE00E), size=0.99, spacing="F", space=0.05, colour=(1.0, 1.0, 1.0, 1.0))
+  kugelswitch = pi3d.TextBlock(-100, -100, 0.1, 0.0, 15, text_format= chr(0xE00E),size=0.99, spacing="F", space=0.05, colour=(1.0, 1.0, 1.0, 1.0))
   text2.add_text_block(kugelswitch)
   shutterDown = pi3d.TextBlock(300, -100, 0.1, 0.0, 1, text_format= chr(0xE00E),size=0.69, spacing="C", space=0.6, colour=(1, 1, 1, 0.8))
   text2.add_text_block(shutterDown)
