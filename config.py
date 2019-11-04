@@ -1,6 +1,6 @@
 installpath = '/home/pi/zero_main_application/'
 
-demo = 1  #shows demo slides
+demo = 0  #shows demo slides
 
 TMDELAY = 30  #delay for changing backgrounds
 INFRARED_TM = 5
@@ -9,7 +9,7 @@ ICAL_TM = 3600  #update calenderslide every 3600 seconds
 
 
 show_airquality = 1 # show airquality over LED
-starthttpserver = 1 #activate simple GET/POST server in python, be aware of  security issues
+starthttpserver = 0 #activate simple GET/POST server in python, be aware of  security issues
 HTTP_PORT = 9000
 
 startmqttclient = 1
