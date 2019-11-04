@@ -1,4 +1,4 @@
-installpath = '/home/pi/zero_main_application/'
+installpath = '/home/pi/mySHPI/'
 
 demo = 0  #shows demo slides
 
