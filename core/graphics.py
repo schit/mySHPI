@@ -18,7 +18,7 @@ additional = [chr(0xE000), #arrow
               chr(0xE003), #raindrop
               chr(0xE004), #fire
               chr(0xE005), #house
-              #chr(0xE006), #filledcircle
+              chr(0xE006), #filledcircle
               #chr(0xE007), #raining
               #chr(0xE008), #timer
               chr(0xE009), #clock
@@ -26,7 +26,7 @@ additional = [chr(0xE000), #arrow
               chr(0xE00B), #gauge
               chr(0xE00C), #sun
               #chr(0xE00D), #cloudsun
-              #chr(0xE00E), #lightoff
+              chr(0xE00E), #lightoff
               chr(0xE00F), #lighton
               chr(0xE010), #settings
               #chr(0xE011), #heart
