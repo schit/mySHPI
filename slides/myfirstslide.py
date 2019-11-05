@@ -65,6 +65,7 @@ def inloop(textchange = False,activity = False, offset = 0):
         mqttclient.publish("scheinwerfer", '0')
         peripherals.controlrelays(config.shutterup, 1)
         shutterUp.colouring.set_colour([0,1,0])
+        shutterUp.set_text(text_format= chr(0xe00f))
         shutterDown.colouring.set_colour([1,1,1])
 
 
