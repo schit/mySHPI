@@ -30,7 +30,7 @@ additional = [chr(0xE000), #arrow
               chr(0xE00F), #lighton
               chr(0xE010), #settings
               #chr(0xE011), #heart
-              #chr(0xE012), #book
+              chr(0xE012), #book
               #chr(0xE013), #child
               #chr(0xE014), #alarmclock
               #chr(0xE015), #presence
