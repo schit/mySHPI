@@ -98,4 +98,4 @@ def slider_change(shape_obj, offset_val):
 
 pointFont = pi3d.Font(config.installpath + "fonts/opensans.ttf", shadow=(0, 0, 0, 255), shadow_radius=5, grid_size=12,
                        codepoints=mytext, add_codepoints=additional)
-pointFontbig = pi3d.Font(config.installpath + "fonts/opensans.ttf", shadow=(0, 0, 0, 255), shadow_radius=4, grid_size=5, codepoints='0123456789:' +chr(0xE000) + chr(0xE035) + chr(0xE001) + chr(0xE00E) + chr(0xe00f))
+pointFontbig = pi3d.Font(config.installpath + "fonts/opensans.ttf", shadow=(0, 0, 0, 255), shadow_radius=4, grid_size=5, codepoints='0123456789:' +chr(0xE00E) + chr(0xe00f))
