@@ -27,7 +27,7 @@ if config.shutterup or config.shutterdown:
   text2.add_text_block(kugelswitch)
   shutterDown = pi3d.TextBlock(300, -100, 0.1, 0.0, 1, text_format= chr(0xE021),size=0.69, spacing="C", space=0.6, colour=(1, 1, 1, 0.8))
   text2.add_text_block(shutterDown)
-  shutterUp = pi3d.TextBlock(-300, -100, 0.1, 180.0, 1, text_format= chr(0xE001),size=0.69, spacing="C", space=0.6, colour=(1, 1, 1, 0.8))
+  shutterUp = pi3d.TextBlock(-300, -100, 0.1, 180.0, 1, text_format= chr(0xE02F),size=0.69, spacing="C", space=0.6, colour=(1, 1, 1, 0.8))
   text2.add_text_block(shutterUp)
 else:
   uhrzeit_block = pi3d.TextBlock(-280, 0, 0.1, 0.0, 15, data_obj=peripherals.eg_object,attr="uhrzeit", text_format= "{:s}", size=0.99, spacing="F", space=0.05, colour=(1.0, 1.0, 1.0, 1.0))
